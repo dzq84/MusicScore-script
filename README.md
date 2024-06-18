@@ -84,13 +84,10 @@ A sample generated result refers to the figure below.
 
 > Prompt (starting from left):
 >
-> a music score, instrumentation is violin, key is A major
->
-> a music score, instrumentation is violin
->
-> a music score, instrumentation is piano, key is A major
->
-> a music score, instrumentation is piano
+> - a music score, instrumentation is violin, key is A major
+> - a music score, instrumentation is violin
+> - a music score, instrumentation is piano, key is A major
+> - a music score, instrumentation is piano
 
 ---
 
