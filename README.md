@@ -1,6 +1,7 @@
 # MusicScore-script
 
-Official toolkit for [paper](https://arxiv.org/abs/2406.11462): **MusicScore: A Dataset for Music Score Modeling and Generation**.
+Official toolkit for [paper](https://arxiv.org/abs/2406.11462):
+**MusicScore: A Dataset for Music Score Modeling and Generation**.
 
 > [Yuheng Lin](https://rozenthegoat.github.io), [Zheqi Dai](https://github.com/dzq84) and [Qiuqiang Kong](https://github.com/qiuqiangkong)
 
