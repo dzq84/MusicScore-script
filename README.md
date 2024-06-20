@@ -14,8 +14,6 @@ Dataset download itself is not included in this codebase, please jump through th
 
 ![MusicScore dataset collecting and processing pipeline](./assets/pipeline.png/ "MusicScore dataset collecting and processing pipeline.")
 
----
-
 # Data process
 
 This codebase maintains two steps of filtering sheet music score images.
@@ -47,8 +45,6 @@ Our cover and non-cover classification achieved a 90% accuracy on our test datas
 ### \*Add-on:
 
 We also provide multi-processing enhanced [pdf2img script](./data_process/pdf2img.py) that we used to slice music score PDF files into single page images. The script can be migrated to any tasks that requires PDF to image slicing.
-
----
 
 # Evaluation
 
