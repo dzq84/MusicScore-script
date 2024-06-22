@@ -20,11 +20,11 @@ This codebase maintains two steps of filtering sheet music score images.
 
 ## 1. Color depth filter
 
-We distinguish whether an image is high quality or not by identifying color depth. The color depth of 1-bit corresponds to black and white images, while the color depth of 8-bit or 16-bit corresponds to color images. The color depth filter script is provided [here]().
+We distinguish whether an image is high quality or not by identifying color depth. The color depth of 1-bit corresponds to black and white images, while the color depth of 8-bit or 16-bit corresponds to color images. The color depth filter script is provided [data_process/color_depth_filter/color_depth.py](./data_process/color_depth_filter/color_depth.py) which multiprocess supported.
 
 ## 2. Non-score filter
 
-We implement a classification model to filter score and non-score images, refers to [cover.ipynb](data_process/non_cover_filter/cover.ipynb). The notebook contains:
+We implement a classification model to filter score and non-score images, refers to [data_process/non_cover_filter/cover.ipynb](data_process/non_cover_filter/cover.ipynb). The notebook contains:
 
 - Training and inferencing scripts of non-score filter model.
 - Processing script of restoring `hd_data` after applying the classification model.
@@ -85,8 +85,6 @@ A sample generated result refers to the figure below.
 > - a music score, instrumentation is violin
 > - a music score, instrumentation is piano, key is A major
 > - a music score, instrumentation is piano
-
----
 
 ## License
 
